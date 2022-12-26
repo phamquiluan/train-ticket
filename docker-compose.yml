@@ -236,14 +236,14 @@ services:
       networks:
           - my-network
 
-  ts-ticketinfo-service:
-        build: ts-ticketinfo-service
-        image: ${IMG_REPO}/ts-ticketinfo-service:${IMG_TAG}
-        restart: always
-        ports:
-          - 15681:15681
-        networks:
-          - my-network
+  # ts-ticketinfo-service:
+  #       build: ts-ticketinfo-service
+  #       image: ${IMG_REPO}/ts-ticketinfo-service:${IMG_TAG}
+  #       restart: always
+  #       ports:
+  #         - 15681:15681
+  #       networks:
+  #         - my-network
 
   ts-price-service:
         build: ts-price-service
@@ -425,14 +425,14 @@ services:
           networks:
             - my-network
 
-  ts-food-map-service:
-        build: ts-food-map-service
-        image: ${IMG_REPO}/ts-food-map-service:${IMG_TAG}
-        restart: always
-        ports:
-          - 18855:18855
-        networks:
-          - my-network
+  # ts-food-map-service:
+  #       build: ts-food-map-service
+  #       image: ${IMG_REPO}/ts-food-map-service:${IMG_TAG}
+  #       restart: always
+  #       ports:
+  #         - 18855:18855
+  #       networks:
+  #         - my-network
 
   ts-food-map-mongo:
     image: mongo
@@ -547,13 +547,13 @@ services:
     networks:
       - my-network
 
-  ts-avatar-service:
-    image: ${NAMESPACE}/ts-avatar-service:${TAG}
-    restart: always
-    ports:
-      - 17001:17001
-    networks:
-      - my-network
+  # ts-avatar-service:
+  #   image: ${NAMESPACE}/ts-avatar-service:${TAG}
+  #   restart: always
+  #   ports:
+  #     - 17001:17001
+  #   networks:
+  #     - my-network
 
 networks:
   my-network:
