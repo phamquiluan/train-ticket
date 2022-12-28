@@ -1,6 +1,6 @@
-# Codewisdom Train-Ticket system
+# Train-Ticket system
 
-Repo=codewisdom
+Repo=phamquiluan
 Tag=latest
 Namespace="default"
 DeployArgs=""

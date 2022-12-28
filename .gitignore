@@ -36,3 +36,4 @@ venv.bak/
 # artifacts
 *.deb
 *.tar.gz
+*.swp
