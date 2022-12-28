@@ -1,6 +1,6 @@
 # Train-Ticket system
 
-Repo=train-ticket
+Repo=phamquiluan
 Tag=latest
 Namespace="default"
 DeployArgs=""
