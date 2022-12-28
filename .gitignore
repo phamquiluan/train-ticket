@@ -37,3 +37,4 @@ venv.bak/
 *.deb
 *.tar.gz
 *.swp
+.vscode
