@@ -26,7 +26,7 @@ Here is the steps to deploy the Train Ticket onto any existing Kubernetes cluste
 #### Presequisite
 * An existing Kubernetes cluster
 * Helm supported, you can see https://helm.sh/docs/helm/helm_install/ for helm install
-* PVC supported, you can see https://openebs.io/docs/2.12.x/user-guides/installation for localPV support.
+* PVC supported, https://openebs.io/docs/user-guides/installation ~you can see https://openebs.io/docs/2.12.x/user-guides/installation for localPV support.~
 
 #### 1. Clone the Repository
 ```bash
