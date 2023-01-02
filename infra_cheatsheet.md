@@ -20,6 +20,14 @@ aws ec2 start-instances --instance-ids <instance-id> --region ap-southeast-2
 ```bash
  aws ec2 modify-instance-attribute --instance-id <instance-id> --region ap-southeast-2 --instance-type "{\"Value\":\"c5.12xlarge\"}"
  ```
+ 
+ | Instance Type | vCPUs    | RAM    |
+|---------------|----------|--------|
+| t2.medium     | 2 vCPUs  | 4 GiB  |
+| t2.large      | 2 vCPUs  | 8 GiB  |
+| t2.xlarge     | 4 vCPUs  | 16GiB  |
+| c5.4xlarge    | 16 vCPUs | 32GiB  |
+| c5.12xlarge   | 48 vCPUs | 96 GiB |
 
 ### Get instance status
 ```bash 
